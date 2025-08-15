@@ -1,4 +1,5 @@
 # MySQL Stored Procedures – LAB-2
+GITHUB LINK : https://github.com/viserion999/SSD_LAB_Activity
 
 Q1. ListAllSubscribers()
 - Purpose: Loops through all subscribers and prints their names using a cursor. 
