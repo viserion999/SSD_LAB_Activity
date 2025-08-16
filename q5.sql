@@ -1,8 +1,7 @@
-use Campus;
 
-DROP procedure if exists SendWatchTimeReport;
+DROP procedure if exists SendWatchTimeReportForAll;
 DELIMITER //
-CREATE PROCEDURE SendWatchTimeReport() 
+CREATE PROCEDURE SendWatchTimeReportForAll() 
 BEGIN
 	declare sub_id int;
 	DECLARE done INT DEFAULT FALSE;
@@ -23,4 +22,4 @@ BEGIN
 END //
 DELIMITER ;
 
-CALL SendWatchTimeReport();
+-- CALL SendWatchTimeReportForAll();

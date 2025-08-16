@@ -19,7 +19,7 @@ Q4. SendWatchTimeReport()
            stored procedure internally.  
 - Run => CALL SendWatchTimeReport();
 
-Q5. SubscriberWatchHistoryReport()
+Q5. SendWatchTimeReportForAll()
 - Purpose: Loops through each subscriber and prints their watch history, calls
            GetWatchHistoryBySubscriber() stoored procedure internally.
-- Run => CALL SubscriberWatchHistoryReport();
+- Run => CALL SendWatchTimeReportForAll();

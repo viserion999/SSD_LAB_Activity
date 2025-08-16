@@ -1,4 +1,4 @@
-use Campus;
+-- use Campus;
 
 DROP procedure if exists GetWatchHistoryBySubscriber;
 DELIMITER //

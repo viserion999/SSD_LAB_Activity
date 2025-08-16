@@ -1,4 +1,3 @@
-use Campus;
 
 DROP procedure if exists SendWatchTimeReport;
 DELIMITER //
@@ -24,6 +23,6 @@ BEGIN
 END //
 DELIMITER ;
 
-call SendWatchTimeReport();
+-- call SendWatchTimeReport();
 
 -- select * from WatchHistory 

@@ -1,4 +1,3 @@
-use Campus;
 
 DROP procedure if exists ListAllSubscribers;
 DELIMITER //
@@ -27,4 +26,4 @@ BEGIN
 END //
 DELIMITER ;
 
-call ListAllSubscribers ();
+-- call ListAllSubscribers ();

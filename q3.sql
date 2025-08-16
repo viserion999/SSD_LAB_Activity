@@ -1,4 +1,3 @@
-use Campus;
 
 DROP procedure if exists AddSubscriberIfNotExists;
 DELIMITER //
@@ -16,5 +15,5 @@ BEGIN
 END //
 DELIMITER ;
 
-call AddSubscriberIfNotExists("Santosh");
+-- call AddSubscriberIfNotExists("Santosh");
 -- select * from Subscribers;
